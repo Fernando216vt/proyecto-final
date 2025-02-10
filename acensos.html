@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IlinizaXplorers</title>
+    <link rel="stylesheet" href="acensos.css">
+
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+        <div class="logo">IlinizaXplorer</div>
+        <ul >
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="acensos.html">Programas de Ascensos ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="iliniza_norte.html">Iliniza Norte</a></li>
+                    <li><a href="iliniza_sur.html">Iliniza Sur</a></li>
+                </ul>
+            </li>
+            <li><a href="conocer_mas.html">Historia</a></li>
+            <li><a href="#">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+    <!-- Contenedor principal con imagen -->
+    <section class="video-section" style="background: url('volcano.png')   center/cover;">
+        <div class="texto">
+            <p></p>
+            <h1> Acensos al Iliniza </h1>
+         
+        </div>
+       
+
+       
+    </section>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        
+        
+      
+         
+        <p>Los Ilinizas son una cadena montañosa formada por 2 picos principales (Norte y Sur) con una altitud máxima de 5246m. Se encuentran ubicadas al oeste del Parque Nacional Cotopaxi y son perfectas para ganar aclimatación sobre los 5000m, lo que las convierte en unas montañas muy visitadas. La cumbre Norte es fácil de hacerla en un día y es una montaña perfecta y bastante común para finalizar la aclimatación para ascender a las altas montañas como el Cotopaxi, Cayambe, Antisana o Chimborazo, además que es excelente para perder el miedo en terreno rocoso. Los paisajes que brinda esta montaña son muy variados, desde amplios pajonales 
+            hasta empinadas paredes de roca volcánica que nos harán disfrutar de este ascenso como ningún otro.</p>
+       
+      
+        
+        <div class="gallery-container">
+            <div class="gallery">
+                <img src="img10.jpg" class="active">
+                <img src="img11.jpg">
+                <img src="img12.jpg">
+                <img src="img13.jpg">
+            </div>
+        </div>
+       
+        <DIV>
+           
+        </DIV>
+        <h2>Los Ilinizas: un viaje que vale la pena tanto para aventureros como para observadores</h2>
+        <p>
+            Solo mirar de cerca los impresionantes Andes hace que el viaje a Ecuador valga la pena. Estas majestuosas montañas y volcanes definitivamente pondrán todo lo que conoces en perspectiva. Es completamente humano sentirse pequeño cuando te encuentras junto al gran volcán Cotopaxi. En tu camino hacia el Parque Nacional Cotopaxi, verás los Ilinizas a tu derecha; es imposible no verlos. Si estás visitando el refugio de Cotopaxi, o si te diriges hacia el hermoso 
+            Chimborazo o Cuenca, las vistas que te acompañarán durante tu viaje te dejarán sin aliento..
+        </p>
+        <section class="ascensos">
+            <h2>Ascensos al Iliniza Norte</h2>
+            <div class="ascenso-contenido">
+                <img src="img17.jpg" alt="Ascenso al Iliniza Norte">
+                <div class="info">
+                    <p>Vive la aventura y desafía la cima del Iliniza Norte. Un recorrido lleno de paisajes impresionantes y una experiencia única para montañistas.</p>
+                    <a href="iliniza_norte.html" class="boton">Ver más</a>
+                </div>
+            </div>
+        </section>
+        <section class="ascensos">
+            <h2>Ascensos al Iliniza Sur</h2>
+            <div class="ascenso-contenido">
+                <img src="img23.jpg" alt="Ascenso al Iliniza Sur">
+                <div class="info">
+                    <p>Vive la aventura y desafía la cima del Iliniza Norte. Un recorrido lleno de paisajes impresionantes y una experiencia única para montañistas.</p>
+                    <a href="iliniza_sur.html" class="boton">Ver más</a>
+                </div>
+            </div>
+        </section>
+        
+        
+    </div>
+    <div>
+
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let index = 0;
+            const images = document.querySelectorAll(".gallery img");
+        
+            function changeImage() {
+                images[index].classList.remove("active");
+                index = (index + 1) % images.length;
+                images[index].classList.add("active");
+            }
+        
+            setInterval(changeImage, 3000); // Cambia cada 3 segundos
+        });
+        </script>
+    <footer  style="background-color: #000; color: #fff; padding: 30px 10%;">
+                <div  style=" align-items: center; text-align: center;">
+                    <p style=" font-size: 14px;">&copy; 2025 Descubre el Iliniza. Todos los derechos reservados.</p>
+        
+                </div>
+        
+     </footer>
+</body>
+</html>
+

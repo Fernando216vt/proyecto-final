@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Descubre el Iliniza</title>
+    <link rel="stylesheet" href="ili.css">
 </head>
 <body>
-    mi pagina para proyecto final xd
+    <nav class="navbar">
+        <div class="logo">IlinizaXplorer</div>
+        <ul >
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="acensos.html">Programas de Ascensos ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="iliniza_norte.html">Iliniza Norte</a></li>
+                    <li><a href="iliniza_sur.html">Iliniza Sur</a></li>
+                </ul>
+            </li>
+            <li><a href="conocer_mas.html">Historia</a></li>
+            <li><a href="#">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+    <section class="video-section">
+        <video class="video-background" autoplay loop muted>
+            <source src="iliniza.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+
+        <div class="content">
+            <h1>Descubre el Iliniza</h1>
+            <p>Una experiencia inolvidable entre las nubes.</p>
+            <a href="conocer_mas.html">Explorar más</a>
+        </div>
+    </section>
+    <section class="descripcion">
+        <p>El Iliniza, con sus majestuosas cumbres Norte y Sur, es un destino emblemático para los amantes de la aventura y la naturaleza. Explora su diversidad paisajística y déjate cautivar por su imponente belleza.</p>
+        <article>Los Ilinizas fueron declarados zona protegida el 11 de diciembre de 1.996 y tiene una extensión de 149. 900 hectáreas, que incluyen a las provincias de Cotopaxi, Pichincha y Santo Domingo de los Tsáchilas. La altitud de la reserva empieza en los 800 msnm y llega hasta los 5.263 metros. Aquí se pueden encontrar varios tipos de bosques como el bosques tropical, cálidos valles, 
+            extensos prados y páramo andino.</article>
+        <p></p>    
+        <audio controls autoplay loop>
+        <source src="audio.mp3" type="audio/mpeg">
+                
+        </audio>    
+    </section>
+
+    <section class="imagen-galery">
+        <div class="galery-item">
+            <img src="img1.jpg" >
+            <div class="galery-info">
+                <h3>Cascada de Cunuyacu</h3>
+                <p>Altitud: localizadas a 4125 msnm </p>
+                <p>La cascada de Oro contiene una gran cantidad de minerales tales como el azufre y el hierro</p>
+                <button class="g" onclick="window.location.href='conocer_mas.html'">Explorar más</button>
+
+            </div>
+        </div>
+        <div class="galery-item">
+            <img src="img5.jpg" >
+            <div class="galery-info">
+                <h3>Termas de Cunuyacu</h3>
+                <p>Altitud:  4125 msnm </p>
+                <p> Termas de Cunuyacu localizadas en las faldas del nevado Iliniza Sur. </p>
+                <button class="g" onclick="window.location.href='conocer_mas.html'">Explorar más</button>
+            </div>
+        </div>
+        <div class="galery-item">
+            <img src="img3.jpg">
+            <div class="galery-info">
+                <h3>Una gran diversidad de flora y fauna </h3>
+                <p>Altitud:1080m</p>
+                <p>La reserva es el hogar de bosques subtropicales, bosques andinos y páramos. </p>
+                <button class="g" onclick="window.location.href='conocer_mas.html'">Explorar más</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-section" style="background: url('img4.jpg')   center/cover;">
+        <div class="ct-content" style="text-align: left;">
+            <h1>Cascada y Termas de Cunuyacu, Reserva Ecológica De Los Ilinizas</h1>
+            <p>Las termas de Cunuyacu son piscinas naturales en las faldas del nevado Iliniza Sur. Las aguas termales son transparentes y de origen volcánico y tienen una temperatura de 22ºC a 25ºC.</p>
+            <p>
+                TOUR DÍA COMPLETO CASCADA Y TERMAS DE CUNUYACU, RESERVA ECOLÓGICA DE LOS ILINIZAS</p>
+            <p>🕐: 10 horas
+                📅: Todos los días
+                ☺: Mínimo 4 personas</p>
+                <a class="cta-button" href="https://w.app/roqm0c" >Reservar vía WhatsApp</a>
+        </div>
+    </section>
+
+    <footer  style="background-color: #000; color: #fff; padding: 30px 10%;">
+        <div  style=" align-items: center; text-align: center;">
+            <p style=" font-size: 14px;">&copy; 2025 Descubre el Iliniza. Todos los derechos reservados.</p>
+
+        </div>
+
+    </footer>
 </body>
 </html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IlinizaXplorers</title>
+    <link rel="stylesheet" href="iliniza_norte.css">
+
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar">
+        <div class="logo">IlinizaXplorer</div>
+        <ul >
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="acensos.html">Programas de Ascensos ▾</a>
+                <ul class="dropdown-content">
+                    <li><a href="iliniza_norte.css">Iliniza Norte</a></li>
+                    <li><a href="iliniza_sur.html">Iliniza Sur</a></li>
+                </ul>
+            </li>
+            <li><a href="conocer_mas.html">Historia</a></li>
+            <li><a href="#">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+    <!-- Contenedor principal con imagen -->
+    <section class="video-section" style="background: url('img20.jpg')   center/cover;">
+        <div class="texto">
+            <p></p>
+            <h1> Acenso al Iliniza Sur </h1>
+         
+        </div>
+       
+
+       
+    </section>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        
+        <h2>Descripcion de Viaje</h2>
+      <p>
+        El Iliniza Sur (5246m/17,211ft) es la sexta montaña más alta del país. Al suroeste de Quito, cerca del pueblo de El Chaupi. El pico Iliniza Sur presenta cambios de deglaciación causados por el calentamiento global, que afectan a sus condiciones de hielo, por lo que ahora está reservado a escaladores de hielo experimentados. Por lo tanto, se requiere experiencia en técnicas de hielo. El pico sur sugiere varias rutas desafiantes y exigentes. 
+        Esta escalada de 2 días comienza por la noche desde el refugio de Nuevos Horizontes a una altitud de 4700m.</p>
+
+        <h3>    Investigacion y Preparacion:</h3>
+                Conoce la ruta, las condiciones climáticas y los requisitos de equipo. Asegúrate de estar en buena forma física.
+                Consulta a un Médico: Antes de tu viaje, consulta a un médico, especialmente si tienes condiciones preexistentes.
+                El ascenso a la cima de los Ilinizas es una de las expediciones más populares en Ecuador. La cumbre Sur es la séptima montaña más alta del Ecuador con 5246m (17211ft). Se encuentra ubicada al oeste del Parque Nacional Cotopaxi en la Reserva Ecológica los Ilinizas a 60km/37mi al sur de Quito. Esta reserva constituye uno de los principales sitios para la conservación de la biodiversidad. Para ascender a esta montaña se necesita experiencia técnica previa, tales como conocimiento en escalada en glaciar y roca, además es importante estar en buena condición física y tener aclimatación en altura (sobre los 4000m). 
+
+                <p></p>
+                La cumbre del Iliniza ofrece vistas increíbles, sus paisajes rocosos y glaciares harán que te quedes asombrado, al igual que los increíbles amaneceres con las ciudades iluminadas en el fondo. También se pueden avistar los volcanes vecinos tales como el Cayambe, Iliniza Sur, Cotopaxi, Corazón, Chimborazo y muchas más. El ascenso es muy popular entre los mochileros, montañistas experimentados y personas aventureras que quiera vivir esta experiencia sin igual. 
+                
+                <p></p>
+                El ascenso se puede realizar en un día, pero si quieres vivir la magia de ver los amaneceres en los Andes ecuatorianos, además de ganar aclimatación al dormir a más de 4500m esta es una experiencia increíble. Para esta expedición de dos días, cada dos pasajeros tendrán un guía certificado ASEGUIM/UIAGM. Si se viaja en solitario, el ascenso se realizará solamente el guía certificado con el pasajero. Anímate a vivir esta hermosa experiencia junto a nosotros y alcanzar una de las cumbres más populares de todo el Ecuador.
+
+
+
+        </p>
+       
+      
+        
+        <div class="gallery-container">
+            <div class="gallery">
+                <img src="img20.jpg" class="active">
+                <img src="img21.jpg">
+                <img src="img22.jpg">
+                <img src="img23.jpg">
+            </div>
+        </div>
+        <a   href="contacto.html" class="button t">Reservar ahora</a>
+        
+           
+    
+        
+    </div>
+    <div>
+
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let index = 0;
+            const images = document.querySelectorAll(".gallery img");
+        
+            function changeImage() {
+                images[index].classList.remove("active");
+                index = (index + 1) % images.length;
+                images[index].classList.add("active");
+            }
+        
+            setInterval(changeImage, 3000); // Cambia cada 3 segundos
+        });
+    </script>
+    <footer  style="background-color: #000; color: #fff; padding:30px 0;">
+        <div  style=" align-items: center; text-align: center;">
+                    <p style=" font-size: 14px;">&copy; 2025 Descubre el Iliniza. Todos los derechos reservados.</p>
+        
+        </div>
+        
+    </footer>
+</body>
+</html>
